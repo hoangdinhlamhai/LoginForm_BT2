@@ -24,10 +24,28 @@
             android:layout_width="160dp"
             android:layout_height="160dp"
             android:src="@drawable/icon_account_circle"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hoàng Đình Lâm Hải"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="22115053122315"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"/>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="10dp"
             android:hint="Username"
             android:textColor="@color/white"
             android:textSize="20sp"
@@ -48,6 +66,22 @@
             android:inputType="textPassword"
             android:id="@+id/password_input"/>
 
+        <TextView
+            android:id="@+id/textViewUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/textViewPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"/>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -55,9 +89,18 @@
             android:backgroundTint="@color/white"
             android:textColor="#3884F1"
             android:padding="18dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="20dp"
             android:textSize="20sp"
             android:id="@+id/login_btn"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:id="@+id/register"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -65,7 +108,7 @@
             android:text="Social login"
             android:textSize="18sp"
             android:textColor="@color/white"
-            android:layout_marginTop="32dp"/>
+            android:layout_marginTop="10dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
